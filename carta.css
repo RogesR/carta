@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: linear-gradient(360deg, rgb(10rgb(68, 3, 3), 21), rgb(49, 13, 13));
+    height: 100vmax;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+    
+}
+
+
+.conteudo{
+    background-color: rgba(217, 224, 193, 0.226);
+    font-size: 26px;
+    color: cyan;
+    font-family: cursive;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    padding: 50px;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color:rgb(43, 255, 0);
+    
+   
+}
+
+.botão{
+    align-items: stretch;
+    padding: 28px;
+    float: right;
+    
+    
+}
+
+.prox{
+    right: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    border-color: transparent;
+    background-color: rgb(115, 177, 177);
+    color: white;
+}
+
+.prox:hover{
+    
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    border-color: teal;
+    background-color: rgb(105, 62, 62);
+    color:teal;
+    transition: 500ms;
+    font-weight: bold;
+
+}
